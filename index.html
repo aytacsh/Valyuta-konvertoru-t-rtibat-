@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <div class="navbar">
+        <div id="site-logo"></div>
+        <div class="menu">
+          <ul id="menu-list">
+            <li class="menu-item">БАНК</li>
+            <li class="menu-item">БИЗНЕС</li>
+            <li class="menu-item">ИНВЕСТИЦИИ</li>
+            <li class="menu-item">СТРАХОВАНИЕ</li>
+            <li class="menu-item">МОБАЙЛ</li>
+            <li class="menu-item">ПУТЕШЕСТВИЯ</li>
+            <li class="menu-item">РАЗВЛЕЧЕНИЯ</li>
+          </ul>
+        </div>
+        <button id="sign-in">ВОЙТИ</button>
+      </div>
+    </nav>
+    <main>
+      <h1 class="convert-header">Конвертер валют онлайн</h1>
+      <div class="convert-section">
+        <div class="convert-from">
+          <p class="convert-title">У меня есть </p>
+          <ul class="currency-list">
+            <li class="currency-item active">RUB</li>
+            <li class="currency-item">USD</li>
+            <li class="currency-item">EUR</li>
+            <li class="currency-item">GBP</li>
+          </ul>
+          <div class="input-section">
+            <input type="number" id="input" placeholder="0">
+            <p class="input-rate"></p>
+          </div>
+        </div>
+        <div class="convert-to">
+          <p class="convert-title">Хочу приобрести</p>
+          <ul class="currency-list">
+            <li class="currency-item">RUB</li>
+            <li class="currency-item active">USD</li>
+            <li class="currency-item">EUR</li>
+            <li class="currency-item">GBP</li>
+          </ul>
+          <div class="result-section">
+            <input type="number" id="result" placeholder="0">
+            <p class="result-rate"></p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="./app.js"></script>
+</body>
+</html>
